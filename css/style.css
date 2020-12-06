@@ -1,0 +1,231 @@
+.perfume-1 {
+	position: absolute;
+	left: 40%;
+	top: 25%;
+
+	width: 500px;
+	height: 500px;
+	z-index: 1;
+
+	animation-name: doson;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+
+
+}
+
+@keyframes doson {
+	0% { filter: blur(50px);
+	}
+	50% { filter: blur(25px);
+
+	}
+	100% { filter: blur(0.5px);
+	}
+}
+
+
+
+.perfume-2 {
+	position: absolute;
+	left: 33%;
+	top: 27%;
+
+	width: 450px;
+	height: 500px;
+
+	animation-name: dosonn;
+	animation-duration: 3.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: 4s;
+}
+
+@keyframes dosonn {
+	0% { filter: blur(60px);
+	}
+	50% { filter: blur(30px);
+	}
+	100% { filter: blur(0.5px);
+
+	}
+}
+
+
+
+.logo {
+	position: absolute;
+	width: 230px;
+	height: 230px;
+	left: 43%;
+	top: 78%;
+
+	animation-name: logo;
+	animation-duration: 3.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: 2s;
+
+
+}
+
+@keyframes logo {
+	0% { filter: blur(60px);
+	}
+	50% { filter: blur(30px);
+	}
+	100% { filter: blur(0.5px);
+
+	}
+}
+
+
+.d {
+	position: absolute;
+	left: 35%;
+	top: 25%;
+	width: 120px;
+	height: 120px;
+
+	animation-name: d;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-timing-function: 2s;
+
+}
+
+@keyframes d {
+	0% { filter: blur(60px);
+	}
+	50% { filter: blur(30px);
+	}
+	100% { filter: blur(0.5px);
+
+	}
+}
+
+.o {
+	position: absolute;
+	left: 40%;
+	top: 15%;
+	width: 120px;
+	height: 120px;
+
+	animation-name: oo;
+	animation-duration: 4.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: 2s;
+}
+
+@keyframes oo {
+	0% { filter: blur(60px);
+	}
+	50% { filter: blur(30px);
+	}
+	100% { filter: blur(0.5px);
+
+	}
+}
+
+
+.s {
+	position: absolute;
+	left: 52%;
+	top: 14%;
+	width: 120px;
+	height: 120px;
+
+	animation-name: s;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-timing-function: 2s;
+}
+
+@keyframes s {
+	0% { filter: blur(60px);
+	}
+	50% { filter: blur(30px);
+	}
+	100% { filter: blur(0.5px);
+
+	}
+}
+
+.oo {
+	position: absolute;
+	left: 57%;
+	top: 23%;
+	width: 120px;
+	height: 120px;
+
+	animation-name: o;
+	animation-duration: 5s;
+	animation-iteration-count: 1;
+	animation-timing-function: 2s;
+}
+
+@keyframes o {
+	0% { filter: blur(60px);
+	}
+	50% { filter: blur(30px);
+	}
+	100% { filter: blur(0.5px);
+
+	}
+}
+
+.n {
+	position: absolute;
+	left: 61%;
+	top: 34%;
+	width: 120px;
+	height: 120px;
+
+
+	animation-name: n;
+	animation-duration: 5.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: 2s;
+}
+
+@keyframes n {
+	0% { filter: blur(60px);
+	}
+	50% { filter: blur(30px);
+	}
+	100% { filter: blur(0.5px);
+
+	}
+}
+
+
+
+.path {
+	stroke-dasharray: 300 100;
+	stroke-dashoffset: 300;
+
+	animation-name: flower;
+	animation-duration: 4s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+
+	position: absolute;
+	left: 24%;
+	top: 500px;
+
+	width: 100px;
+	height: 100px;
+}
+
+@keyframes flower {
+	0%{
+		stroke-dashoffset: 0;
+		filter: blur(30px);
+	}
+	50% {
+		filter: blur(15px);
+	}
+	100% {
+		filter: blur(1px);
+
+	}
+	
+}
